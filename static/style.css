@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	max-width: 60em;
+	margin: 0 auto;
+}
+header{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.title{
+	padding: 1em;
+	text-align: center;
+}
+.title h1{
+	margin: 0 auto;
+}
+
+.row{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+}
