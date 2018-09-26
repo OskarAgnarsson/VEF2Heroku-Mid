@@ -4,17 +4,23 @@
 from bottle import *
 import urllib.request, json
 
+with urllib.request.urlopen("http://apis.is/petrol/") as url:
+    data= json.loads(url.read().decode())
+
+
 @route("/")
 def index():
-    return template("index.tpl")
+    return template("index.tpl",data=data)
 
 
-#with urllib.request.urlopen("http://apis.is/currency/") as url:
-    #data= json.loads(url.read().decode())
+@route("/company/<company>")
+def index(company):
+    return template("company.tpl", data=data, c=company)
 
-@route("/uppl")
-def index():
-    return template("uppl.tpl")
+@route("/moreinfo/<key>")
+
+def index(key):
+    return template("moreinfo.tpl", data=data)
 
 ##########################################
 @error(404)

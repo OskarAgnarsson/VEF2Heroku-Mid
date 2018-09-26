@@ -1,15 +1,16 @@
 <div class="title">
 	<h1>Miðannarverkefni</h1>
 </div>
-<div class="row">
+<!--
+<div class="nav">
 	<nav>
-		<ul>
-			<li>
+		<ul class="row">
+			<li class="rowLi">
 				<a href="/">Forsíða</a>
 			</li>
-			<li>
-				<a href="/uppl">Upplýsingar</a>
+			<li class="rowLi">
+				<a href="/company">Company</a>
 			</li>
 		</ul>
 	</nav>
-</div>
+</div>-->

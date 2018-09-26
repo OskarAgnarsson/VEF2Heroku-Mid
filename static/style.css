@@ -3,7 +3,7 @@
 }
 
 body{
-	max-width: 60em;
+	max-width: 50em;
 	margin: 0 auto;
 }
 header{
@@ -14,13 +14,36 @@ header{
 .title{
 	padding: 1em;
 	text-align: center;
+	background-color: #5f93e8;
 }
 .title h1{
 	margin: 0 auto;
+}
+
+.nav {
+	background-color: #5e71e8;
+}
+
+.nav:hover {
+	background-color: #6f9fed;
+}
+
+.nav:active {
+	background-color: #86abe8;
 }
 
 .row{
 	display: flex;
 	flex-flow: row;
 	justify-content: space-between;
+}
+
+.rowLi {
+	margin: 0 auto;
+	list-style-type: none;
+	padding: .5em;
+}
+
+.rowLi a{
+	text-decoration: none;
 }
