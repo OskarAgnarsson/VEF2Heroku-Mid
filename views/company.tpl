@@ -7,7 +7,6 @@
 <body>
 	<h1>Bensínstöðvar</h1>
 	<br>
-	
 	<table>
 	<tr>
 		<th>Fyrirtæki</th>
@@ -29,5 +28,8 @@
 		end
 	%>
 </table>
+<div>
+	<h3>Fjöldi stöðva: {{cnt}}</h3>
+</div>
 </body>
 </html>

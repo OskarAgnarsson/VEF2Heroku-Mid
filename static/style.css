@@ -6,10 +6,6 @@ body{
 	max-width: 50em;
 	margin: 0 auto;
 }
-header{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
 
 .title{
 	padding: 1em;
