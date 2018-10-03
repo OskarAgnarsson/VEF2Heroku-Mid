@@ -21,7 +21,6 @@ def index(company):
 
 def index(key):
     return template("moreinfo.tpl", data=data, key=key)
-#@{{["geo"]["lat"]}},{{["geo"]["lon"]}}
 ##########################################
 @error(404)
 def villa(error):

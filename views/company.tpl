@@ -2,12 +2,12 @@
 <html>
 <head>
 	<title>{{c}}</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../../static/style.css">
 </head>
 <body>
-	<h1>Bensínstöðvar</h1>
+	<h1 class="titleS">Bensínstöðvar</h1>
 	<br>
-	<table>
+	<table class="stations">
 	<tr>
 		<th>Fyrirtæki</th>
 		<th>Staður</th>
@@ -28,7 +28,7 @@
 		end
 	%>
 </table>
-<div>
+<div class="fjoldi">
 	<h3>Fjöldi stöðva: {{cnt}}</h3>
 </div>
 </body>
