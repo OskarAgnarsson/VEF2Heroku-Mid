@@ -10,6 +10,16 @@
 			<h1>Miðannarverkefni</h1>
 		</div>
 	</header>
+	<section class="rowImg">
+		<img src="static/AO.jpg">
+		<img src="static/costco.png">
+		<img src="static/Daelan.png">
+		<img src="static/n1.png">
+		<img src="static/ob.jpg">
+		<img src="static/olis.jpg">
+		<img src="static/Orkan.png">
+		<img src="static/OrkanX.png">
+	</section>
 	<section class="row">
 		<%
 

@@ -23,6 +23,13 @@ body{
 	background-color: #5f93e8;
 	color:#f9f480;
 }
+.rowImg{
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 50em;
+	margin: .2em auto;
+	justify-content: space-between;
+}
 .row{
 	max-width: 50em;
 	margin: 0 auto;
@@ -87,4 +94,12 @@ body{
 	text-align: center;
 	color: #f9f480;
 	font-size: .8em;
+}
+.uppl{
+	max-width: 50em;
+	margin: 0 auto;
+	background-color: #4e89cc;
+	color: #f9f480;
+	padding: 1em;
+	border-radius: .5em;
 }
